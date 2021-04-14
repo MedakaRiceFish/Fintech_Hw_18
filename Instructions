@@ -1,1 +1,17 @@
+Part One:
+<p>
+Create First Node Account by running ./geth --datadir node1 account new
+Copy down information output by this command.
+<p>
+Create Second Node Account by running ./geth --datadir node2 account new
+Copy down information output by this command.
+<p>
 
+
+Part Two:
+1: Run ./puppeth.exe
+2: Choose network name
+3: Select option 2, "Configure New Genesis Block" 
+4: Select Option 1 "Create New Genesis From Scratch"
+5: Select Option 2 "Clique -- proof-of-authority"
+6: 
