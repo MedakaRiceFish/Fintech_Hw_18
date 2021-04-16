@@ -9,6 +9,8 @@
 
   - Create Second Node Account by running ./geth --datadir node2 account new Copy down information output by this command.
 
+![Screenshot 1](123.org)
+
 ---
 
 ## Part Two: (see step 2 screenshot)
