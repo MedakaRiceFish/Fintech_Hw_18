@@ -7,6 +7,8 @@
 
 - Part One: (see step 1 screenshot)
 
+  - Start gitbash within the geth (in our case, Blockchain-Tools) folder.
+
   - Create First Node Account by running ./geth --datadir node1 account new Copy down information output by this command.
 
   - Create Second Node Account by running ./geth --datadir node2 account new Copy down information output by this command.
