@@ -15,7 +15,18 @@
 
 ## Part Two: (see step 2 screenshot)
 
-1: Run ./puppeth.exe 2: Choose network name 3: Select option 2, "Configure New Genesis Block" 4: Select Option 1 "Create New Genesis From Scratch" 5: Select Option 2 "Clique -- proof-of-authority" 6: Decide on block generation time (1 second in our case) 7: Fill out the sealer addresses (x2) with the addresses that were output from Step 1 (Node1 and Node2 Addresses) 8: Pre-fund at least one of the addresses from Step 1 9: Do not pre-compile addresses 10: Allow for randomly generated chainID Congrats, new Genesis block created
+- 1: Run ./puppeth.exe 
+- 2: Choose network name 
+- 3: Select option 2, "Configure New Genesis Block". A genesis block is the very first block in a blockchain. 
+- 4: Select Option 1 "Create New Genesis From Scratch" 
+- 5: Select Option 2 "Clique -- proof-of-authority". Proof of Authority is essentially a centralized method of producing the supply. 
+- 6: Decide on block generation time (1 second in our case). A block generation time dictates the speed at which we want blocks to be mineable, and with bitcoin will adjust difficulty to ensure consistent block time. 
+- 7: Fill out the sealer addresses (x2) with the addresses that were output from Step 1 (Node1 and Node2 Addresses) 
+- 8: Pre-fund at least one of the addresses from Step 1 
+- 9: Do not pre-compile addresses 
+- 10: Allow for randomly generated chainID. A ChainID is a unique identifier to in the signature that identifies this specific chain. 
+
+Congrats, new Genesis block created
 
 ---
 
