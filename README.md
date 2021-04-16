@@ -9,7 +9,7 @@
 
   - Create Second Node Account by running ./geth --datadir node2 account new Copy down information output by this command.
 
-![Screenshot 1](123.org)
+![Screenshot 1](https://github.com/MedakaRiceFish/Fintech_Hw_18/blob/main/Screenshots/Step%201.png)
 
 ---
 
