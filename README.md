@@ -5,7 +5,7 @@
 - Install Mycrypto locally. 
 - Install Geth.
 
-- Part One: (see step 1 screenshot)
+## Part 1:
 
   - Start gitbash within the geth (in our case, Blockchain-Tools) folder.
 
@@ -17,7 +17,7 @@
 
 ---
 
-## Part Two: (see step 2 screenshot)
+## Part 2: 
 
 - 1: Run ./puppeth.exe 
 - 2: Choose network name 
