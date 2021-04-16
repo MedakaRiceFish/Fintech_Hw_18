@@ -28,19 +28,30 @@
 
 Congrats, new Genesis block created
 
+![Screenshot2](https://github.com/MedakaRiceFish/Fintech_Hw_18/blob/main/Screenshots/Step%202.png)
 ---
 
 ## Part 3: (See step 3 screenshot)
 
-1: initialize the nodes by using the following commands - Node 1: ./geth init rhhw18.json --datadir node1 Node 2: ./geth init rhhw18.json --datadir node2
-
+- 1: initialize the nodes by using the following commands - 
+  - Node 1: ./geth init rhhw18.json --datadir node1 
+  - Node 2: ./geth init rhhw18.json --datadir node2
+![Screenshot3](https://github.com/MedakaRiceFish/Fintech_Hw_18/blob/main/Screenshots/Step%203.png)
 ---
 ## Part 4: (See step 4 screenshot)
 
-1: Start mining with each node with the following commands. Best to open each of these in a seperate command window. Node 1: ./geth --datadir node1 --unlock "0x3c1897427e87C17EE8274cFE1b51E0e86eeF48ae" --mine --rpc --allow-insecure-unlock Node 2: ./geth --datadir node2 --unlock "0x5e7139aE663F3A5824B7e3BF06032D3A38BC5863" --mine --port 30304 --bootnodes "enode://a7db6d2f0a784da4c892e5ef5fe05a3b6dcddfb7008c7e1e6e32927e42a9720b48a65cf087e11bb1959dcc5f159c9e3573b716f7b7bf8d9552ceacfff82d961a@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+- 1: Start mining with each node with the following commands. Best to open each of these in a seperate command window. 
+  -Node 1: ./geth --datadir node1 --unlock "0x3c1897427e87C17EE8274cFE1b51E0e86eeF48ae" --mine --rpc --allow-insecure-unlock 
+  -Node 2: ./geth --datadir node2 --unlock "0x5e7139aE663F3A5824B7e3BF06032D3A38BC5863" --mine --port 30304 --bootnodes "enode://a7db6d2f0a784da4c892e5ef5fe05a3b6dcddfb7008c7e1e6e32927e42a9720b48a65cf087e11bb1959dcc5f159c9e3573b716f7b7bf8d9552ceacfff82d961a@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
+![Screenshot4](https://github.com/MedakaRiceFish/Fintech_Hw_18/blob/main/Screenshots/Step%204.png)
 ---
 
 ## Part 5: (See step 5/6 screenshot)
 
-1: Change your network in Mycrpto: (Create new custom node, grab your ChainID from Part two, and setup node) 2: Verify you now see a premined balance in your new custom node for sealer 1 address. 3: Send any amount to Sealer 2 address, and verify TX with the "Check Transaction" feature in mycrypto.
+- 1: Change your network in Mycrpto: (Create new custom node, grab your ChainID from Part two, and setup node) 
+- 2: Verify you now see a premined balance in your new custom node for sealer 1 address. 
+- 3: Send any amount to Sealer 2 address, and verify TX with the "Check Transaction" feature in mycrypto.
+
+![Screenshot5](https://github.com/MedakaRiceFish/Fintech_Hw_18/blob/main/Screenshots/Step%205.png)
+![Screenshot6](https://github.com/MedakaRiceFish/Fintech_Hw_18/blob/main/Screenshots/Step%206.png)
