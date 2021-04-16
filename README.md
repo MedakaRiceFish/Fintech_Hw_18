@@ -1,7 +1,9 @@
 # Fintech_Hw_18
 
 
-## Pre-Steps Required: Install Mycrypto locally. Install Geth
+## Pre-Steps Required: 
+- Install Mycrypto locally. 
+- Install Geth.
 
 - Part One: (see step 1 screenshot)
 
