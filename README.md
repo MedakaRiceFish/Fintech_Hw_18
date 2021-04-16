@@ -3,11 +3,11 @@
 
 ## Pre-Steps Required: Install Mycrypto locally. Install Geth
 
--Part One: (see step 1 screenshot)
+- Part One: (see step 1 screenshot)
 
-Create First Node Account by running ./geth --datadir node1 account new Copy down information output by this command.
+  - Create First Node Account by running ./geth --datadir node1 account new Copy down information output by this command.
 
-Create Second Node Account by running ./geth --datadir node2 account new Copy down information output by this command.
+  - Create Second Node Account by running ./geth --datadir node2 account new Copy down information output by this command.
 
 ---
 
