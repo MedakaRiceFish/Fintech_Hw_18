@@ -50,7 +50,6 @@ Congrats, new Genesis block created
   - Node 1: ./geth --datadir node1 --unlock "0x3c1897427e87C17EE8274cFE1b51E0e86eeF48ae" --mine --rpc --allow-insecure-unlock
     - datadir is the direction in the command to navigate the directory
     - node1 is the name of the node
-    - unlock is
     - The address listed is the "sealer 1" address, and is the public address of node 1. 
     - mine starts the node into mining mode.
     - rpc is us telling the system which port to use
